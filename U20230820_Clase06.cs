@@ -70,7 +70,7 @@ namespace MyApp// Note: actual namespace depends on the project name.
           //Impresion de funciones de cadena de textos
 
           Console.Write("\n\n******************************************************\n\n");
-          Console.Write("\n------- IMPRESION DE FUNCIONES DE CADENA ---------" );
+          Console.Write("\n------- IMPRESION DE FUNCIONES DE CADENA -------" );
           Console.Write("\n----Texto Ingresado en cosola >>>> " + textoCadena);
           Console.Write("\n----Funcion en minusculas >>>> " + funcionMinuscula);
           Console.Write("\n----Funcion en mayuscula >>>> " + funcionMayuscula);
@@ -91,7 +91,7 @@ namespace MyApp// Note: actual namespace depends on the project name.
           Console.Write("\n----Fechas iguales >>>> " + fechasIguales);
           Console.Write("\n----Fecha actual mayor >>>> " + fechaActual1);
           Console.Write("\n----Fecha especifica menor >>>> " + fechaEspecifica1);
-          Console.Write("\n---------- FIN DE IMPRESION DE FECHA -----------\n");
+          Console.Write("\n---------- FIN DE IMPRESION DE FECHA ----------\n");
           Console.Write("\n\n******************************************************\n\n");
           
 
