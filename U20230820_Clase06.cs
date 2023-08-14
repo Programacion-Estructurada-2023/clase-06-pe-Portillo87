@@ -60,6 +60,7 @@ namespace MyApp// Note: actual namespace depends on the project name.
           DateTime fechaSumada2= fechaEspecifica.AddDays(2);
 
           //Funcion para comparar fechas
+          
           bool fechasIguales= fechaActual == fechaEspecifica; 
           bool fechaActual1= fechaActual > fechaEspecifica; 
           bool fechaEspecifica1= fechaActual < fechaEspecifica;
@@ -76,7 +77,7 @@ namespace MyApp// Note: actual namespace depends on the project name.
           Console.Write("\n----Funcion de tamaño de cadena >>>> " + longitudCadena);
           Console.Write("\n----Funcion de concatenado >>>> " + cadenaConcatenada);
           Console.Write("\n----Funcion de comparacion >>>> " + compararVaria);
-          Console.Write("\n---------- FIN DE IMPRESION DE CADENAS ----------\n\n");
+          Console.Write("\n---------- FIN DE IMPRESION DE CADENAS ----------\n");
           Console.Write("\n\n****************************************************\n\n");
 
           //Impresion de funciones de fecha
@@ -90,7 +91,7 @@ namespace MyApp// Note: actual namespace depends on the project name.
           Console.Write("\n----Fechas iguales >>>> " + fechasIguales);
           Console.Write("\n----Fecha actual mayor >>>> " + fechaActual1);
           Console.Write("\n----Fecha especifica menor >>>> " + fechaEspecifica1);
-          Console.Write("\n---------- FIN DE IMPRESION DE FECHA -----------\n\n");
+          Console.Write("\n---------- FIN DE IMPRESION DE FECHA -----------\n");
           Console.Write("\n\n*****************************************************\n\n");
 
           //U20230820 WILFREDO PORTILLO VILLALTA
