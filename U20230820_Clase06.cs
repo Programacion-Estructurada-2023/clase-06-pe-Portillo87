@@ -56,8 +56,8 @@ namespace MyApp// Note: actual namespace depends on the project name.
           string? fechaFormateda= fechaEspecifica.ToString("dd/MM/yyyy"); 
           
           //Funcion para adicionar o restar dias,horas a una fecha
-          DateTime fechaSumada= fechaActual.AddDays(1);
-          DateTime fechaSumada2= fechaEspecifica.AddDays(2);
+          DateTime fechaSumada= fechaActual.AddDays(3);
+          DateTime fechaSumada2= fechaEspecifica.AddDays(3);
 
           //Funcion para comparar fechas
           
@@ -85,8 +85,8 @@ namespace MyApp// Note: actual namespace depends on the project name.
           Console.Write("\n------- IMPRESION DE FUNCIONES DE FECHA -------" );
           Console.Write("\n----Fecha actual >>>> " + fechaActual);
           Console.Write("\n----Fecha Especifica formateada >>>> " + fechaFormateda);
-          Console.Write("\n----Fecha actual + suma de 1 dias >>>> " + fechaSumada);
-          Console.Write("\n----Fecha especifica + suma de 2 dias >>>> " + fechaSumada2);
+          Console.Write("\n----Fecha actual + suma de 3 dias >>>> " + fechaSumada);
+          Console.Write("\n----Fecha especifica + suma de 3 dias >>>> " + fechaSumada2);
           Console.Write("\n----Fechas iguales >>>> " + fechasIguales);
           Console.Write("\n----Fecha actual mayor >>>> " + fechaActual1);
           Console.Write("\n----Fecha especifica menor >>>> " + fechaEspecifica1);
