@@ -31,17 +31,17 @@ namespace MyApp// Note: actual namespace depends on the project name.
 
           //Funcion de minuscula
 
-          string? funcionMinuscula = textoCadena.ToLower();
+          string funcionMinuscula = textoCadena.ToLower();
 
           //Funcion de mayuscula
 
-          string? funcionMayuscula = textoCadena.ToUpper();
+          string funcionMayuscula = textoCadena.ToUpper();
 
           //Funcion de tamaño de cadena
           int longitudCadena=textoCadena.Length; 
 
           //Funcion de concatenado
-          string? cadenaConcatenada= primerNombre + " " + primerApellido; 
+          string cadenaConcatenada= primerNombre + " " + primerApellido; 
 
           //funcion de comparar
           bool compararVaria= primerNombre.Equals(primerApellido);
@@ -53,7 +53,7 @@ namespace MyApp// Note: actual namespace depends on the project name.
           int año= fechaEspecifica.Year;
 
           //Funcion para formatear fecha
-          string? fechaFormateda= fechaEspecifica.ToString("dd/MM/yyyy"); 
+          string fechaFormateda= fechaEspecifica.ToString("dd/MM/yyyy"); 
           
           //Funcion para adicionar o restar dias,horas a una fecha
           DateTime fechaSumada= fechaActual.AddDays(3);
