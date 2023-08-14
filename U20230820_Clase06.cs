@@ -56,8 +56,8 @@ namespace MyApp// Note: actual namespace depends on the project name.
           string? fechaFormateda= fechaEspecifica.ToString("dd/MM/yyyy"); 
           
           //Funcion para adicionar o restar dias,horas a una fecha
-          DateTime fechaSumada= fechaActual.AddDays(3);
-          DateTime fechaSumada2= fechaEspecifica.AddDays(3);
+          DateTime fechaSumada= fechaActual.AddDays(1);
+          DateTime fechaSumada2= fechaEspecifica.AddDays(2);
 
           //Funcion para comparar fechas
           bool fechasIguales= fechaActual == fechaEspecifica; 
