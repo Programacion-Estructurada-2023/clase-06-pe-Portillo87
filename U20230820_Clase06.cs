@@ -69,7 +69,7 @@ namespace MyApp// Note: actual namespace depends on the project name.
 
           //Impresion de funciones de cadena de textos
 
-          Console.Write("\n\n******************************************************\n");
+          Console.Write("\n\n******************************************************\n\n");
           Console.Write("\n------- IMPRESION DE FUNCIONES DE CADENA ---------" );
           Console.Write("\n----Texto Ingresado en cosola >>>> " + textoCadena);
           Console.Write("\n----Funcion en minusculas >>>> " + funcionMinuscula);
@@ -78,21 +78,22 @@ namespace MyApp// Note: actual namespace depends on the project name.
           Console.Write("\n----Funcion de concatenado >>>> " + cadenaConcatenada);
           Console.Write("\n----Funcion de comparacion >>>> " + compararVaria);
           Console.Write("\n---------- FIN DE IMPRESION DE CADENAS ----------\n");
-          Console.Write("\n\n****************************************************\n\n");
+          Console.Write("\n\n******************************************************\n\n");
 
           //Impresion de funciones de fecha
 
-          Console.Write("\n\n*****************************************************\n");
+          Console.Write("\n\n******************************************************\n\n");
           Console.Write("\n------- IMPRESION DE FUNCIONES DE FECHA -------" );
           Console.Write("\n----Fecha actual >>>> " + fechaActual);
           Console.Write("\n----Fecha Especifica formateada >>>> " + fechaFormateda);
-          Console.Write("\n----Fecha actual + suma de 3 dias >>>> " + fechaSumada);
-          Console.Write("\n----Fecha especifica + suma de 3 dias >>>> " + fechaSumada2);
+          Console.Write("\n----Fecha actual + suma de 1 dias >>>> " + fechaSumada);
+          Console.Write("\n----Fecha especifica + suma de 2 dias >>>> " + fechaSumada2);
           Console.Write("\n----Fechas iguales >>>> " + fechasIguales);
           Console.Write("\n----Fecha actual mayor >>>> " + fechaActual1);
           Console.Write("\n----Fecha especifica menor >>>> " + fechaEspecifica1);
           Console.Write("\n---------- FIN DE IMPRESION DE FECHA -----------\n");
-          Console.Write("\n\n*****************************************************\n\n");
+          Console.Write("\n\n******************************************************\n\n");
+          
 
           //U20230820 WILFREDO PORTILLO VILLALTA
 
