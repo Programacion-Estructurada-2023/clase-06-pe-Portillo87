@@ -1,4 +1,4 @@
-﻿﻿using System;
+﻿using System;
 
 namespace MyApp// Note: actual namespace depends on the project name.
 {
@@ -21,11 +21,11 @@ namespace MyApp// Note: actual namespace depends on the project name.
 
           //CAPTURAR EL VALOR DE CADENA DE TEXTO
 
-          Console.Write("\n\n*******************************************************\n");
+          Console.Write("\n\n**********************************************************\n");
           Console.Write("\n ---- Captura de datos tipo texto ---");
           Console.Write("\n ---- Ingresar valor de tipo texto >>>> ");
           textoCadena=Convert.ToString(Console.ReadLine());
-          Console.Write("\n\n****************************************************\n\n");
+          Console.Write("\n\n********************************************************\n\n");
 
           //APLICACION DE FUNCIONES DE CADENA
 
@@ -68,20 +68,23 @@ namespace MyApp// Note: actual namespace depends on the project name.
           //IMPRESION DE LOS RESULTADO
 
           //Impresion de funciones de cadena de textos
-
-          Console.Write("\n\n******************************************************\n\n");
+           Console.Write("\n\n\n*******************************************************\n");
           Console.Write("\n------- IMPRESION DE FUNCIONES DE CADENA -------" );
-          Console.Write("\n----Texto Ingresado en cosola >>>> " + textoCadena);
-          Console.Write("\n----Funcion en minusculas >>>> " + funcionMinuscula);
-          Console.Write("\n----Funcion en mayuscula >>>> " + funcionMayuscula);
-          Console.Write("\n----Funcion de tamaño de cadena >>>> " + longitudCadena);
-          Console.Write("\n----Funcion de concatenado >>>> " + cadenaConcatenada);
-          Console.Write("\n---------- FIN DE IMPRESION DE CADENA ----------\n");
-          Console.Write("\n\n******************************************************\n\n");
+          Console.Write("\n--Texto Ingresado en cosola >>> "+ textoCadena);
+          Console.Write("\n--Funcion en minusculas >>> "+ funcionMinuscula);
+          Console.Write("\n--Funcion en mayuscula >>> "+ funcionMayuscula);
+          Console.Write("\n--Funcion de tamaño de cadena >>> "+ longitudCadena);
+          Console.Write("\n--Funcion de concatenado >>> "+ cadenaConcatenada);
+          Console.Write("\n--Funcion de comparacion >>> "+ compararVaria);
+          Console.Write("\n---------- FIN DE IMPRESION DE CADENAS ----------\n\n");
+          Console.Write("\n\n\n******************************************************\n\n");
+
+
+          
 
           //Impresion de funciones de fecha
 
-          Console.Write("\n\n******************************************************\n\n");
+          Console.Write("\n\n\n********************************************************\n");
           Console.Write("\n------- IMPRESION DE FUNCIONES DE FECHA -------" );
           Console.Write("\n----Fecha actual >>>> " + fechaActual);
           Console.Write("\n----Fecha Especifica formateada >>>> " + fechaFormateda);
@@ -90,8 +93,8 @@ namespace MyApp// Note: actual namespace depends on the project name.
           Console.Write("\n----Fechas iguales >>>> " + fechasIguales);
           Console.Write("\n----Fecha actual mayor >>>> " + fechaActual1);
           Console.Write("\n----Fecha especifica menor >>>> " + fechaEspecifica1);
-          Console.Write("\n---------- FIN DE IMPRESION DE FECHA ----------\n");
-          Console.Write("\n\n******************************************************\n\n");
+          Console.Write("\n---------- FIN DE IMPRESION DE FECHA ----------\n\n");
+          Console.Write("\n\n\n******************************************************\n\n");
           
 
           //U20230820 WILFREDO PORTILLO VILLALTA
