@@ -76,8 +76,7 @@ namespace MyApp// Note: actual namespace depends on the project name.
           Console.Write("\n----Funcion en mayuscula >>>> " + funcionMayuscula);
           Console.Write("\n----Funcion de tamaño de cadena >>>> " + longitudCadena);
           Console.Write("\n----Funcion de concatenado >>>> " + cadenaConcatenada);
-          Console.Write("\n----Funcion de comparacion >>>> " + compararVaria);
-          Console.Write("\n---------- FIN DE IMPRESION DE CADENAS ----------\n");
+          Console.Write("\n---------- FIN DE IMPRESION DE CADENA ----------\n");
           Console.Write("\n\n******************************************************\n\n");
 
           //Impresion de funciones de fecha
